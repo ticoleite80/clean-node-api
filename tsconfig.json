@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist", //onde gerar os arquivos js a serem publicados no servidor
+        "module": "commonjs", //obter modulo (require - module.export)
+        "target": "es2019", //desenvolver em qualquer versao, mas gera o js com padrao es2019
+        "esModuleInterop": true, //faz a conversao dos mudules que usam o common js
+        "allowJs": true //ermitir incluir arquivos em js no dir dist.
+    }
+}
